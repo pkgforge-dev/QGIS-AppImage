@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-# pacman -Syu --noconfirm PACKAGESHERE
+pacman -Syu --noconfirm qgis fcgi gpsbabel
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
