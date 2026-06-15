@@ -17,7 +17,8 @@ quick-sharun \
 	/usr/bin/qgis*    \
 	/usr/lib/libqgis* \
 	/usr/lib/qgis     \
-	/usr/share/qgis
+	/usr/share/qgis   \
+	/usr/lib/libexslt.so*
 
 # Additional changes can be done in between here
 
